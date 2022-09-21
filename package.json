@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Appx plugin SDK",
   "author": "Water.li",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "repository": "rxdrag/appx-plugin-sdk",
   "main": "dist/index.js",
   "engines": {
