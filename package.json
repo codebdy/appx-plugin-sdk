@@ -2,7 +2,7 @@
   "name": "@appx/plugin-sdk",
   "version": "0.0.0",
   "description": "Appx plugin SDK",
-  "author": "nekogd",
+  "author": "Water.li",
   "license": "Apache-2.0",
   "repository": "rxdrag/appx-plugin-sdk",
   "main": "dist/index.js",
