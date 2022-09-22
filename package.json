@@ -1,10 +1,13 @@
 {
-  "name": "@appx/plugin-sdk",
-  "version": "0.0.0",
+  "name": "@rxdrag/appx-plugin-sdk",
+  "version": "0.0.2",
   "description": "Appx plugin SDK",
   "author": "Water.li",
   "license": "MIT",
-  "repository": "rxdrag/appx-plugin-sdk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rxdrag/appx-plugin-sdk.git"
+  },
   "main": "dist/index.js",
   "engines": {
     "node": ">=8",
