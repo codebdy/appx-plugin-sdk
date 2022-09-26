@@ -49,6 +49,6 @@ export interface IMaterialComponent {
   name: string;
   designer: DnFC<any> | DnComponent<any>;
   component: React.FC<any> | React.Component;
-  resource?: IResourceCreator;
+  resources?: IResourceCreator[];
   behaviors?: IBehavior[];
 }
