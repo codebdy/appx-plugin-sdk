@@ -22,13 +22,18 @@ export interface IPlugin {
 }
 
 export enum FieldsType {
-  Multiple = "Multiple",
-  Single = "Single"
+  Multiple = "multiple",
+  Single = "single"
+}
+
+export enum DataBindSourceType {
+  Multiple = "multiple",
+  Single = "single"
 }
 
 
 export interface IDisplayTabOptions {
-  hasDataBindSource?: boolean,
+  dataBindSourceType?: DataBindSourceType,
   fieldSourceType?: FieldsType,
   hasPropTitle?: boolean,
 }
